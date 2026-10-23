@@ -42,7 +42,7 @@ public class storeCheckout {
                 double discountAmount = (amount * discount) / 100.0;
                 double finalPrice = amount - discountAmount;
 
-                System.out.println("\n--- Summary ---");
+                System.out.println("--- Summary ---");
                 System.out.println("Discount: " + discount + "%");
                 System.out.printf("Discount amount: $", discountAmount);
                 System.out.printf("Final price: $", finalPrice);
